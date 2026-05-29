@@ -21,14 +21,14 @@ runs/
 checkpoints/
 
 # Large model and data artifacts
-model/*.pth
+model/DNUnet.pth
 model/*.pt
 model/*.ckpt
+data/test_2d_gb1_0902.mat
+data/test_2d_titr31.mat
 test/*.mat
-*.mat
 
 # Logs and local files
 *.log
 .DS_Store
 Thumbs.db
-
